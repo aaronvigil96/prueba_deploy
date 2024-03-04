@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>
+                Dolar empresa
+                <input type="number" name="dolarCompanyValue"/>
+            </label>
+        </div>
+        <div>
+            <label>
+                Dolar producto
+                <input type="text" name="dolarProductValue"/>
+            </label>
+        </div>
+        <div>
+            <label>Iva</label>
+            <select name="ivaValue">
+                <option value="21" selected>21</option>
+                <option value="10.5">10.5</option>
+            </select>
+        </div>
+        <div>
+            <label>
+                Margen de ganancia
+                <input type="number" name="marginValue"/>
+            </label>
+        </div>
+        <div>
+            <label>
+                Descuento pago contado
+                <input type="number" name="cashDiscountValue"/>
+            </label>
+        </div>
+        <button>Envíar</button>
+    </form>
+    <p class="p__price_list"></p>
+    <p class="p__price_cash"></p>
+    <script src="app.js"></script>
+</body>
+</html>
